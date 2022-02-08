@@ -15,6 +15,8 @@ INSERT INTO Movie (Title, Rating, ReleaseDate) VALUES
   ('Rocky', 'PG', '1976-11-21'),
   ('Crazy Rich Asians', 'PG-13', '2018-08-15');
 
+
+
 SELECT *
 FROM Movie
 WHERE ReleaseDate < '2008-02-01' && Rating != 'R';
